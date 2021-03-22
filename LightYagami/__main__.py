@@ -51,7 +51,7 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-Hey You {},You Are In Light's Pm
+Hey You {},You Are In Gigi's Pm
 
 Nice To Meet You Dude....
 
@@ -74,8 +74,8 @@ And Provide Justice To Your Group
     dispatcher.bot.first_name, ""
     if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
-SAITAMA_IMG = "https://telegra.ph/file/4911c03742b50ad0d8bf7.jpg"
-LIGHT_IMG = "https://telegra.ph/file/5580465a8e3c4d51d5c3c.mp4"
+SAITAMA_IMG = "https://telegra.ph/file/331a5ee7ab4b93e2b17ae.jpg"
+LIGHT_IMG = "https://telegra.ph/file/9815ecaa3f0cd0140feea.mp4"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
 """
@@ -195,25 +195,25 @@ def start(update: Update, context: CallbackContext):
                 reply_markup=InlineKeyboardMarkup(
                     [[
                         InlineKeyboardButton(
-                            text="⚖️Add Kira to your group⚖️",
+                            text="⚖️Add 𝙂𝙞𝙜𝙞 𝙃𝙖𝙙𝙞𝙙 to your group⚖️",
                             url="t.me/{}?startgroup=true".format(context.bot.username))
                     ],
                      [
                          InlineKeyboardButton(
                              text="📢 Support Group",
-                             url=f"https://t.me/{SUPPORT_CHAT}"),
+                             url=f"https://t.me/{joinchat/Jhp2gINqm8RhNTc1}"),
                          InlineKeyboardButton(
                              text="🔔 Updates Of Light 🔔",
-                             url="https://t.me/seedofbots")
+                             url="https://https://t.me/joinchat/Jhp2gINqm8RhNTc1")
                      ],
                     
                     [
                          InlineKeyboardButton(
                              text="❤My God❤",
-                             url="https://t.me/death_note_light_yagami"),
+                             url="https://t.me/Farseen_king_of_telegram),
                          InlineKeyboardButton(
                              text="⌨Repo🖱",
-                             url="https://github.com/YashMorya/LightYagami")
+                             url="https://t.me/Farseen_king_of_telegram")
                      ],[
                         InlineKeyboardButton(
                             text="❗❔Help And Commands❔",
@@ -427,11 +427,7 @@ def settings_button(update: Update, context: CallbackContext):
                 "Hi there! There are quite a few settings for {} - go ahead and pick what "
                 "you're interested in.".format(chat.title),
                 reply_markup=InlineKeyboardMarkup(
-                    paginate_modules(
-                        next_page + 1, CHAT_SETTINGS, "stngs", chat=chat_id)))
-
-        elif back_match:
-            chat_id = back_match.group(1)
+                    i
             chat = bot.get_chat(chat_id)
             query.message.reply_text(
                 text="Hi there! There are quite a few settings for {} - go ahead and pick what "
